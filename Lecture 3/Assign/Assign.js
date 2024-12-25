@@ -6,7 +6,7 @@ function countString(input,type){
             const vowels = /[aeiou]/gi
             return input.match(vowels).length
         case "V":
-            return input.split(' ').join('').length
+            return input.replace(/\s+/g, '').length
         default:
             console.log("None of these choice")
             break
