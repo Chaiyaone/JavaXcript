@@ -9,9 +9,8 @@ function countString(input,type){
             return input.replace(/\s+/g, '').length
         default:
             console.log("None of these choice")
-            break
     }
 }
 
-console.log(countString("Hello o","v"))
+console.log(countString("Hello o","w"))
 
