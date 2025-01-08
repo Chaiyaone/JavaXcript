@@ -1,5 +1,5 @@
 function countString(input,type){
-    switch (type.toString().toUpperCase()){
+    switch (type.toUpperCase()){
         case "W":
             return input.length
         case "C":
